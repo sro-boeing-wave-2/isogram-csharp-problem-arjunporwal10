@@ -8,7 +8,7 @@ namespace Isogram.Tests
     public class UnitTest1
     {
         [Fact]
-        public void HoldTrueForEmptyString()
+        public void HoldTrueForEmpty1String()
         {
             Assert.True(IsogramChecker.CheckIfIsogram(""));
         }
